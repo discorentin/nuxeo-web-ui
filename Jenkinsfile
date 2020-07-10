@@ -358,9 +358,9 @@ pipeline {
           ------------------------------
           Image tag: ${VERSION}
           """
-          dir('server') {
+          /* dir('server') {
             skaffoldBuild()
-          }
+          } */
           skaffoldBuild()
         }
       }
